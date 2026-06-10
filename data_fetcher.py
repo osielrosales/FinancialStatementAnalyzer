@@ -1,9 +1,6 @@
 import requests
 import streamlit as st
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
 
 API_KEY = os.getenv("API_KEY") or st.secrets["API_KEY"]
 
