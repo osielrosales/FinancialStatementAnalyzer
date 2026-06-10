@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY") or st.secrets["API_KEY"]
 
 @st.cache_data(ttl=60 * 60 * 24)
 def get_company_name(ticker):
