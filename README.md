@@ -29,16 +29,14 @@ I built this project to get more experience working with APIs, data processing, 
 
 ## Project Structure
 
-FinancialStatementAnalyzer/
-│
-├── app.py               # Streamlit interface
-├── data_fetcher.py      # API requests and data retrieval
-├── calculator.py        # Financial metric calculations
-├── scoring.py           # Financial scoring model
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+app.py               # Streamlit interface
+data_fetcher.py      # API requests and data retrieval
+calculator.py        # Financial metric calculations
+scoring.py           # Financial scoring model
+requirements.txt
+.env
+.gitignore
+README.md
 
 ## Financial Score
 
